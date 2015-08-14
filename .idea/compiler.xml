@@ -25,6 +25,8 @@
         <module name="upworkDemo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="upworkDemo" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
-
