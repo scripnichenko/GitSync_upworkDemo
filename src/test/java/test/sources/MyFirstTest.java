@@ -9,6 +9,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import static com.codeborne.selenide.Selenide.*;
+import static com.codeborne.selenide.Condition.*;
 
 import java.io.File;
 import java.io.IOException;
@@ -167,7 +169,9 @@ public class MyFirstTest
 
         //2.3 PRICING & DISCOUNTS
 
-        WebElement createDiscount = FindElementBy(By.partialLinkText("Pricing & Discounts"));
+
+
+        WebElement createDiscount = FindElementBy(By.xpath("//*[@id=\"edit_product_discounts_container\"]/div[1]/a/div"));
         if (createDiscount!= null) {
             createDiscount.click();
         }
@@ -175,6 +179,25 @@ public class MyFirstTest
             fail("There is no button to create Discount");
         }
 
+        String path5 = new StringBuilder("./screenshots/").append(MyFirstTest.driver.getWindowHandle()).append(".png").toString();
+        SaveScreenshot(path5);
+
+        //Delete Service
+        WebElement deleteService = FindElementBy(By.xpath("//*[@id=\"edit_product_advanced_container\"]/div[1]/a/div)"));
+        if (deleteService!= null) {
+            deleteService.click();
+        }
+        else {
+            fail("There is no button to create Delete button");
+        }
+
+        String path6 = new StringBuilder("./screenshots/").append(MyFirstTest.driver.getWindowHandles()).append(".png").toString();
+        SaveScreenshot(path6);
+
+        WebElement deleteServices = FindElementBy(By.xpath("//*[@id=\"product_delete\"]/input"));
+        deleteServices.submit();
+
+        //*[@id="product_discounts"]
        /* //
         // 2) send "NetCracker Su" to the query field
         //
