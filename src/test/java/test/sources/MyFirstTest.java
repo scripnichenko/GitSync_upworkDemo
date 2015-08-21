@@ -62,6 +62,7 @@ public class MyFirstTest
      */
     public WebElement FindElementBy(By by) {
         try {
+            Thread.sleep(1000);
             (new WebDriverWait(MyFirstTest.driver, 5)).until(ExpectedConditions.visibilityOfElementLocated(by));
             WebElement element = MyFirstTest.driver.findElement(by);
             Thread.sleep(1000);
@@ -183,7 +184,7 @@ public class MyFirstTest
         SaveScreenshot(path5);
 
         //Delete Service
-        WebElement deleteService = FindElementBy(By.xpath("//*[@id=\"edit_product_advanced_container\"]/div[1]/a/div)"));
+        WebElement deleteService = FindElementBy(By.xpath("//*[@id=\"edit_product_advanced_container\"]/div[1]/a/div"));
         if (deleteService!= null) {
             deleteService.click();
         }
@@ -191,12 +192,16 @@ public class MyFirstTest
             fail("There is no button to create Delete button");
         }
 
-        String path6 = new StringBuilder("./screenshots/").append(MyFirstTest.driver.getWindowHandles()).append(".png").toString();
+
+        String path6 = new StringBuilder("./screenshots/").append(MyFirstTest.driver.getTitle()).append(".png").toString();
         SaveScreenshot(path6);
+
 
         WebElement deleteServices = FindElementBy(By.xpath("//*[@id=\"product_delete\"]/input"));
         deleteServices.submit();
 
+        String path7 = new StringBuilder("./screenshots/").append(MyFirstTest.driver.getTitle()).append(".png").toString();
+        SaveScreenshot(path7);
         //*[@id="product_discounts"]
        /* //
         // 2) send "NetCracker Su" to the query field
