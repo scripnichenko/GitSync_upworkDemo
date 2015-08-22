@@ -141,7 +141,7 @@ public class MyFirstTest
             fail("There is no button to Add new Service");
         }
 
-        //2.1 Click Save
+        // 2. Create a service keeping all the default values
         WebElement saveServiceGoToPreview = FindElementBy(By.id("save_and_go_to_preview"));
         if (saveServiceGoToPreview != null) {
             saveServiceGoToPreview.click();
@@ -154,23 +154,11 @@ public class MyFirstTest
         String path4 = new StringBuilder("./screenshots/").append(MyFirstTest.driver.getTitle()).append(".png").toString();
         SaveScreenshot(path4);
 
-       /* //2.2 Click Save
-        WebElement saveFinalService = FindElementBy(By.xpath("id('body')/x:div[3]/x:div[4]/x:div/x:input"));
-        if (saveFinalService!= null) {
-            saveFinalService.click();
-        }
-        else {
-            fail("There is no button to Save new Service");
-        }
 
+        //3 After the service is created, scroll down until you see the "discount options"
 
-        String path5 = new StringBuilder("./screenshots/").append(MyFirstTest.driver.getTitle()).append(".png").toString();
-        SaveScreenshot(path5);      */
-
-
-        //2.3 PRICING & DISCOUNTS
-
-
+        JavascriptExecutor jse = (JavascriptExecutor)MyFirstTest.driver;
+        jse.executeScript("window.scrollBy(0,1000)", "");
 
         WebElement createDiscount = FindElementBy(By.xpath("//*[@id=\"edit_product_discounts_container\"]/div[1]/a/div"));
         if (createDiscount!= null) {
@@ -183,8 +171,27 @@ public class MyFirstTest
         String path5 = new StringBuilder("./screenshots/").append(MyFirstTest.driver.getWindowHandle()).append(".png").toString();
         SaveScreenshot(path5);
 
-        //Delete Service
-        WebElement deleteService = FindElementBy(By.xpath("//*[@id=\"edit_product_advanced_container\"]/div[1]/a/div"));
+
+        // 4 Create a 10% discount applicable to all ticket types (leave blank all the other conditions)
+
+        WebElement setDiscountValue = FindElementBy(By.xpath("//*[@name=\"discount_create[value]\"]"));
+        setDiscountValue.sendKeys("10");
+
+
+        WebElement CreateDiscountValue = FindElementBy(By.xpath("//*[@class=\"discount submit4\"]"));
+        CreateDiscountValue.click();
+
+        //5 Then, scroll up again to see the "Service Preview" (which is an iframe), click on the right arrow to select the following month and click on the second monday
+        JavascriptExecutor jse2 = (JavascriptExecutor)MyFirstTest.driver;
+        jse2.executeScript("window.scrollBy(0,-1000)", "");
+
+       // WebElement clickNextMonth = FindElementBy(By.cssSelector("#eventCalendarDefault > div.eventsCalendar-slider > a.arrow.next"));
+        //clickNextMonth.click();
+
+        //*[@id="eventCalendarDefault"]/div[1]/a[2]
+        //14 The automated test finishes by deleting the service (scroll down, click on "advance actions" and then on the red button "Delete Service"
+
+        WebElement deleteService = FindElementBy(By.xpath("//*[@id=\"edit_product_advanced_container\"]"));
         if (deleteService!= null) {
             deleteService.click();
         }
@@ -197,11 +204,13 @@ public class MyFirstTest
         SaveScreenshot(path6);
 
 
+
         WebElement deleteServices = FindElementBy(By.xpath("//*[@id=\"product_delete\"]/input"));
         deleteServices.submit();
 
         String path7 = new StringBuilder("./screenshots/").append(MyFirstTest.driver.getTitle()).append(".png").toString();
         SaveScreenshot(path7);
+
         //*[@id="product_discounts"]
        /* //
         // 2) send "NetCracker Su" to the query field
