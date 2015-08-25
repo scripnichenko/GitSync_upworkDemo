@@ -10,6 +10,8 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		 <aspectj.version>1.8.6</aspectj.version>
+		 <allure.version>1.4.17</allure.version>
     </properties>
     <dependencies>
         <dependency>
@@ -30,7 +32,75 @@
             <version>2.21</version>
             <scope>test</scope>
         </dependency>
+		<dependency>
+        <groupId>ru.yandex.qatools.allure</groupId>
+        <artifactId>allure-testng-adaptor</artifactId>
+        <version>${allure.version}</version>
+    </dependency>
     </dependencies>
+ <build>
+    <resources>
+      <resource>
+        <directory>src/main/java/testng/com</directory>
+        <filtering>true</filtering>
+      </resource>
+    </resources>
+    <testResources>
+      <testResource>
+        <directory>src/test/java/test/sources</directory>
+        <filtering>true</filtering>
+      </testResource>
+    </testResources>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-resources-plugin</artifactId>
+        <version>2.14</version>
+        <configuration>
+          <encoding>UTF-8</encoding>
+        </configuration>
+      </plugin> 
+      <plugin>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.18.1</version>
+        <configuration>
+         <excludes>
+            <exclude>**/TestChas.java</exclude>
+          </excludes>
+		  <argLine>
+                    -javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar
+                </argLine>
+		 <properties>
+              <property>
+                        <name>listener</name>
+                        <value>ru.yandex.qatools.allure.testng.AllureTestListener</value>
+                    </property>
+                </properties>
+          <systemPropertyVariables>
+            <application.properties>/application.properties</application.properties>
+          </systemPropertyVariables>
+        </configuration>
+		<dependencies>
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjweaver</artifactId>
+			<version>${aspectj.version}</version>
+		</dependency>
+	</dependencies>
+      </plugin>
+	  </plugins>
+	  
+	  <reporting>
+	<excludeDefaults>true</excludeDefaults>
+	<plugins>
+		<plugin>
+			<groupId>ru.yandex.qatools.allure</groupId>
+			<artifactId>allure-maven-plugin</artifactId>
+			<version>${allure.version}</version>
+		</plugin>
+	</plugins>
+</reporting>
 
+  </build>
 
 </project>
