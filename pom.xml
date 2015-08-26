@@ -10,8 +10,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		 <aspectj.version>1.8.6</aspectj.version>
-		 <allure.version>1.4.17</allure.version>
+		
     </properties>
     <dependencies>
         <dependency>
@@ -32,21 +31,7 @@
             <version>2.21</version>
             <scope>test</scope>
         </dependency>
-		<dependency>
-        <groupId>ru.yandex.qatools.allure</groupId>
-        <artifactId>allure-testng-adaptor</artifactId>
-        <version>${allure.version}</version>
-    </dependency>
-	 <dependency>
-            <groupId>ru.yandex.qatools.allure</groupId>
-            <artifactId>allure-junit-adaptor</artifactId>
-            <version>${allure.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.github.detro.ghostdriver</groupId>
-            <artifactId>phantomjsdriver</artifactId>
-            <version>1.0.4</version>
-        </dependency>
+		
     </dependencies>
  <build>
     <resources>
@@ -61,7 +46,6 @@
         <filtering>true</filtering>
       </testResource>
     </testResources>
-    <plugins>
-    </plugins>
+    
 	</build>
 </project>

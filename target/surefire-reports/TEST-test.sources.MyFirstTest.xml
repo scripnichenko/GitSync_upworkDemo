@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.sources.MyFirstTest" time="0" tests="0" errors="0" skipped="0" failures="0">
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="0" failures="0" name="test.sources.MyFirstTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="Test ansk"/>
@@ -25,7 +25,7 @@
     <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
     <property name="ProgramFiles" value="C:\Program Files (x86)"/>
     <property name="user.language" value="en"/>
-    <property name="BUILD_DISPLAY_NAME" value="#10"/>
+    <property name="BUILD_DISPLAY_NAME" value="#12"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_51\jre\bin"/>
     <property name="ACPath" value="C:\Program Files (x86)\Lenovo\Access Connections\"/>
     <property name="LOCALAPPDATA" value="C:\windows\system32\config\systemprofile\AppData\Local"/>
@@ -37,7 +37,7 @@
     <property name="NODE_NAME" value="master"/>
     <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_51\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="10"/>
+    <property name="BUILD_ID" value="12"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -70,7 +70,7 @@
     <property name="POM_GROUPID" value="upworkDemo"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
     <property name="user.home" value="C:\windows\system32\config\systemprofile"/>
-    <property name="BUILD_TAG" value="jenkins-Test ansk-10"/>
+    <property name="BUILD_TAG" value="jenkins-Test ansk-12"/>
     <property name="JENKINS_SERVER_COOKIE" value="ca6df38d0d35363c"/>
     <property name="HUDSON_URL" value="http://localhost/:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -84,7 +84,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\Users\ansk0413\Downloads\apache-maven-3.3.3-bin\apache-maven-3.3.3"/>
     <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-agent-1.6.jar;C:\Users\ansk0413\Downloads\apache-maven-3.3.3-bin\apache-maven-3.3.3\boot\plexus-classworlds-2.5.2.jar;C:\Users\ansk0413\Downloads\apache-maven-3.3.3-bin\apache-maven-3.3.3/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven32Main C:\Users\ansk0413\Downloads\apache-maven-3.3.3-bin\apache-maven-3.3.3 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-2.52.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-interceptor-1.6.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.6.jar 52910"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven32Main C:\Users\ansk0413\Downloads\apache-maven-3.3.3-bin\apache-maven-3.3.3 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-2.52.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-interceptor-1.6.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.6.jar 54653"/>
     <property name="TRPATH" value="C:\Program Files (x86)\Lenovo\Screen Reading Optimizer\"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.8.0_51/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\RSA SecurID Token Common;C:\app\Administrator\product\11.2.0\client_1\bin;C:\oracle\product\10.2.0\client_1;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\ThinkPad\Bluetooth Software\;C:\Program Files\ThinkPad\Bluetooth Software\syswow64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Lenovo\Access Connections\;C:\Program Files (x86)\Kaspersky Lab\Kaspersky Endpoint Security 10 for Windows\;C:\Program Files (x86)\Intel\Services\IPT\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Sennheiser\SoftphoneSDK\;C:\Users\ansk0413\Downloads\apache-maven-3.3.3-bin\apache-maven-3.3.3\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
@@ -100,7 +100,7 @@
     <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
     <property name="PATH+MAVEN" value="C:\Users\ansk0413\Downloads\apache-maven-3.3.3-bin\apache-maven-3.3.3/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost/:8080/job/Test%20ansk/10/"/>
+    <property name="BUILD_URL" value="http://localhost/:8080/job/Test%20ansk/12/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
@@ -110,10 +110,11 @@
     <property name="user.dir" value="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo"/>
     <property name="JOB_URL" value="http://localhost/:8080/job/Test%20ansk/"/>
     <property name="USERDOMAIN" value="NETCRACKER"/>
-    <property name="line.separator" value="&#10;"/>
+    <property name="line.separator" value="
+"/>
     <property name="MAVEN_HOME" value="C:\Users\ansk0413\Downloads\apache-maven-3.3.3-bin\apache-maven-3.3.3"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="10"/>
+    <property name="BUILD_NUMBER" value="12"/>
     <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
     <property name="JENKINS_URL" value="http://localhost/:8080/"/>
     <property name="PROCESSOR_REVISION" value="2a07"/>
