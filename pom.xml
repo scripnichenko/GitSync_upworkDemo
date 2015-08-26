@@ -88,8 +88,6 @@
 		</dependency>
 	</dependencies>
       </plugin>
-	  </plugins>
-	  
 	  <reporting>
 	<excludeDefaults>true</excludeDefaults>
 	<plugins>
@@ -99,8 +97,8 @@
 			<version>${allure.version}</version>
 		</plugin>
 	</plugins>
-</reporting>
+	</reporting>
 
-  </build>
-
+	  </plugins>
+	</build>
 </project>
