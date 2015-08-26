@@ -162,6 +162,7 @@ public class MyFirstTest
         jse.executeScript("window.scrollBy(0,1000)", "");
 
         WebElement createDiscount = FindElementBy(By.xpath("//*[@id=\"edit_product_discounts_container\"]/div[1]/a/div"));
+
         if (createDiscount!= null) {
             createDiscount.click();
         }
@@ -195,10 +196,35 @@ public class MyFirstTest
 
             System.out.println("frameid: " + framename.getAttribute("id"));*/
 
-        MyFirstTest.driver.switchTo().frame("product_preview").findElement(By.xpath("//*[@id=\"eventCalendarDefault\"]/div[1]/a[2]")).click();
-        /*Thread.sleep(1000);
 
-        WebElement findButtonnext = FindElementBy());
+        JavascriptExecutor jseUp = (JavascriptExecutor)MyFirstTest.driver;
+        jseUp.executeScript("window.scrollTo(0,0)", "");
+
+        MyFirstTest.driver.switchTo().frame("product_preview");
+
+        WebElement clickArrauNextMonth = FindElementBy(By.xpath("//*[@id=\"eventCalendarDefault\"]/div[1]/a[2]/span"));
+       // WebElement clickArrauNextMonth = FindElementBy(By.cssSelector("*[class$='next']"));
+        clickArrauNextMonth.click();
+
+        List<WebElement> calendarEmptyValuesAmount = driver.findElements(By.cssSelector("*[class$='empty']"));
+
+        if (calendarEmptyValuesAmount.size() == 0){
+            MyFirstTest.driver.findElement(By.xpath("//*[@id=\"dayList_8\"]")).click();
+        } else {
+            String xpathForDate = new StringBuilder("//*[@id=\"dayList_").append(14 - calendarEmptyValuesAmount.size() + 1).append("\"]").toString();
+
+            MyFirstTest.driver.findElement(By.xpath(xpathForDate)).click();
+        }
+
+        //- 6 Click on the time 11:00
+
+        MyFirstTest.driver.findElement(By.xpath("//*[@id=\"23\"]")).click();
+
+        //- 7 After clicking on the time the widget will show the price applicable to that date and time.
+        // There will be two tickets (adult and child) with the full price crossed and the deducted price besides.
+        // You have to make 4 assert to make sure the prices are correct.
+
+       /* WebElement findButtonnext = FindElementBy());
         Thread.sleep(1000);
         findButtonnext.click();*/
 
