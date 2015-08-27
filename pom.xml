@@ -33,19 +33,4 @@
         </dependency>
 		
     </dependencies>
- <build>
-    <resources>
-      <resource>
-        <directory>src/main/java/testng/com</directory>
-        <filtering>true</filtering>
-      </resource>
-    </resources>
-    <testResources>
-      <testResource>
-        <directory>src/test/java/test/sources</directory>
-        <filtering>true</filtering>
-      </testResource>
-    </testResources>
-    
-	</build>
-</project>
+ </project>

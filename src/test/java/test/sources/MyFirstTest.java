@@ -8,6 +8,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Condition.*;
@@ -202,15 +203,25 @@ public class MyFirstTest
 
         MyFirstTest.driver.switchTo().frame("product_preview");
 
-        WebElement clickArrauNextMonth = FindElementBy(By.xpath("//*[@id=\"eventCalendarDefault\"]/div[1]/a[2]/span"));
+
+
+
+            WebDriverWait wait = new WebDriverWait(driver, 10);
+            WebElement clickArrauNextMonth = FindElementBy(By.xpath("//*[contains(@class,'arrow next')]"));
+            wait.until(ExpectedConditions.elementToBeClickable(clickArrauNextMonth));
+            clickArrauNextMonth.click();
+
+
+            // xpath- $x ("//@class='arrow next'")
+		// xpath $x ("//*[contains(@class,'arrow next')]")
+        // //*[@id="eventCalendarDefault"]/div[1]/a[2]/span
        // WebElement clickArrauNextMonth = FindElementBy(By.cssSelector("*[class$='next']"));
-        clickArrauNextMonth.click();
 
         List<WebElement> calendarEmptyValuesAmount = driver.findElements(By.cssSelector("*[class$='empty']"));
 
         if (calendarEmptyValuesAmount.size() == 0){
             MyFirstTest.driver.findElement(By.xpath("//*[@id=\"dayList_8\"]")).click();
-        } else {
+			        } else {
             String xpathForDate = new StringBuilder("//*[@id=\"dayList_").append(14 - calendarEmptyValuesAmount.size() + 1).append("\"]").toString();
 
             MyFirstTest.driver.findElement(By.xpath(xpathForDate)).click();
@@ -223,6 +234,27 @@ public class MyFirstTest
         //- 7 After clicking on the time the widget will show the price applicable to that date and time.
         // There will be two tickets (adult and child) with the full price crossed and the deducted price besides.
         // You have to make 4 assert to make sure the prices are correct.
+
+
+        Select findSelectionAdult = new Select(FindElementBy(By.xpath("//*[contains(@id,'ticket_type_count[16094]')]")));
+        findSelectionAdult.selectByValue("1");
+
+        Select findSelectionChild = new Select(FindElementBy(By.xpath("//*[contains(@id,'ticket_type_count[16095]')]")));
+        findSelectionChild.selectByValue("2");
+
+
+
+
+
+       /* WebElement select = driver.findElement(By.id("selection"));
+        List<WebElement> options = select.findElements(By.tagName("option"));
+        for (WebElement option : options) {
+            if("Germany".equals(option.getText()))
+                option.click();
+        }*/
+
+        //*[@id="ticket_type_count_16094"]
+        //*[@id="buy-now-1"]/div[3]/div[2]/table/tbody/tr[1]/td[1]/div
 
        /* WebElement findButtonnext = FindElementBy());
         Thread.sleep(1000);

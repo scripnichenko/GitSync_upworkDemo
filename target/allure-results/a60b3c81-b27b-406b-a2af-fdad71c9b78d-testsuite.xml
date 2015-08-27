@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:test-suite start="1440556012586" stop="1440556014680" version="1.4.17" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
-    <name>Surefire suite : Surefire test</name>
-    <title>Surefire suite : Surefire test</title>
-    <labels>
-        <label name="framework" value="TestNG"/>
-        <label name="language" value="JAVA"/>
-    </labels>
-</ns2:test-suite>
