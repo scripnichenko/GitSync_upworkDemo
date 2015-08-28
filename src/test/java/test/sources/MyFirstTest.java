@@ -204,13 +204,11 @@ public class MyFirstTest
         MyFirstTest.driver.switchTo().frame("product_preview");
 
 
-
-
             WebDriverWait wait = new WebDriverWait(driver, 10);
             WebElement clickArrauNextMonth = FindElementBy(By.xpath("//*[contains(@class,'arrow next')]"));
             wait.until(ExpectedConditions.elementToBeClickable(clickArrauNextMonth));
-            clickArrauNextMonth.click();
 
+            clickArrauNextMonth.click();
 
             // xpath- $x ("//@class='arrow next'")
 		// xpath $x ("//*[contains(@class,'arrow next')]")
@@ -236,11 +234,16 @@ public class MyFirstTest
         // You have to make 4 assert to make sure the prices are correct.
 
 
-        Select findSelectionAdult = new Select(FindElementBy(By.xpath("//*[contains(@id,'ticket_type_count[16094]')]")));
-        findSelectionAdult.selectByValue("1");
+        WebElement adultSelector = FindElementBy(By.id("ticket_type_count_16035"));
+        WebDriverWait waitString = new WebDriverWait(driver, 10);
+        waitString.until(ExpectedConditions.elementToBeClickable(adultSelector));
 
-        Select findSelectionChild = new Select(FindElementBy(By.xpath("//*[contains(@id,'ticket_type_count[16095]')]")));
-        findSelectionChild.selectByValue("2");
+        Select findSelectionAdult = new Select(FindElementBy(By.id("ticket_type_count_16035")));
+        findSelectionAdult.selectByVisibleText("1");
+
+
+        Select findSelectionChild = new Select(FindElementBy(By.id("ticket_type_count_16036")));
+        findSelectionChild.selectByVisibleText("2");
 
 
 

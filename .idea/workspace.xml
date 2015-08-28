@@ -2,147 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="002dd2cf-687c-41e4-8188-8a2b1c1c0198" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_1_0.xml" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\.idea\libraries\Maven__cglib_cglib_nodep_2_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\.idea\libraries\Maven__com_beust_jcommander_1_27.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\.idea\libraries\Maven__com_github_detro_ghostdriver_phantomjsdriver_1_0_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\.idea\libraries\Maven__commons_beanutils_commons_beanutils_core_1_8_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\.idea\libraries\Maven__mx4j_mx4j_tools_3_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\.idea\libraries\Maven__net_java_dev_jna_jna_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\.idea\libraries\Maven__net_java_dev_jna_platform_3_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\.idea\libraries\Maven__net_jcip_jcip_annotations_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\.idea\libraries\Maven__org_apache_tika_tika_core_1_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\.idea\libraries\Maven__org_aspectj_aspectjrt_1_8_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\.idea\libraries\Maven__org_beanshell_bsh_2_0b4.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\.idea\libraries\Maven__org_bouncycastle_bcpkix_jdk15on_1_48.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\.idea\libraries\Maven__org_bouncycastle_bcprov_jdk15on_1_48.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\.idea\libraries\Maven__org_jvnet_jaxb2_commons_jaxb2_basics_runtime_0_9_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\.idea\libraries\Maven__org_mortbay_jetty_servlet_api_2_5_6_1_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\.idea\libraries\Maven__org_seleniumhq_selenium_jetty_repacked_7_6_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_server_2_33_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\.idea\libraries\Maven__org_slf4j_slf4j_api_1_7_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\.idea\libraries\Maven__org_testng_testng_6_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\.idea\libraries\Maven__org_yaml_snakeyaml_1_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\.idea\libraries\Maven__ru_yandex_qatools_allure_allure_java_adaptor_api_1_4_17.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\.idea\libraries\Maven__ru_yandex_qatools_allure_allure_java_annotations_1_4_17.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\.idea\libraries\Maven__ru_yandex_qatools_allure_allure_java_aspects_1_4_17.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\.idea\libraries\Maven__ru_yandex_qatools_allure_allure_junit_adaptor_1_4_17.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\.idea\libraries\Maven__ru_yandex_qatools_allure_allure_model_1_4_17.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\.idea\libraries\Maven__ru_yandex_qatools_allure_allure_testng_adaptor_1_4_17.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\.idea\libraries\Maven__ru_yandex_qatools_properties_properties_loader_1_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-132333C7-EAFD-4E47-856F-0E3B1977F86F.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-1459F11B-C043-41DD-852C-FF83D04E8028.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-149FEEAC-5AC6-4A66-A127-7CDC7B2E3AA2.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-1529DC0F-1921-46D3-8931-6BEB31A00DFA.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-1965A214-EF7F-4252-B929-20008382A689.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-1BDA847C-7801-4BA0-BF3B-0C9CA0E9F446.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-1D41B6BC-C0D8-4378-8156-640FDE6719C7.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-1DA8D48A-8DCE-48AF-8F92-D3CF818E7601.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-2037A309-81B2-4FDC-BE85-A9FF9EE25275.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-2545A9F6-4DD7-4C83-B3DE-99C4FFDD029F.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-254F4F13-FDB9-4DAD-9B4E-97391BC4046F.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-2BEF9857-C2D3-455C-AF71-1DB90260DBB4.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-2E8E28EE-7297-4570-8C4D-6C3656817731.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-3CC28561-A4D6-4E5C-98F5-014818D641A7.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-4CCD3AAF-6FED-433A-A062-25E6E7BF2130.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-4DA160C4-AB8B-40E0-9A37-F98B26406A3D.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-50FF2855-7377-42C3-8A39-6CABC802C27F.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-5462103E-61CE-4522-B2C7-496C6884ECAD.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-5A0EE759-F2A3-4E77-BD99-065B49CDC3C7.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-653A8C8D-35FF-4C84-8ED3-E96A4A335123.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-76B8FAE4-71AC-425A-9B8D-812AEE68BC48.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-7AC0DBE3-026B-4795-94DF-5FC8AFBEADE1.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-820F35A0-4BD7-47FC-9C77-6A300CB896D5.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-89DF874C-762E-4C85-9B64-165112D0DB9F.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-8B84DF94-7F5A-440E-A068-318179934819.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-8E468CF7-CDDA-463B-B6D6-E940F89505E6.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-90B196E5-BA7B-49BF-87D2-E210B6938D8B.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-A194F3FA-1269-4151-97BD-F562D207DF9B.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-A49E0304-1ED9-49CB-BFB9-5623BF436475.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-AE49AB84-E7F4-4A49-B59D-FB80FC34D1C0.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-B0A30107-30CB-4183-9CB6-EB8BFCC553C2.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-BDCE57B3-F3D3-478D-B9CE-319495362960.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-BE2FEB5D-313E-4CCC-96D4-D00B4874B7F1.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-C702CB21-7D6F-4685-AF22-7DD228E15B26.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-CEEF3023-651E-4290-AD92-D8D615097881.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-D28A564F-80CC-4F38-A992-1CDA83CA260F.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-D84D00F6-D383-407A-B73A-DBCEF132EB52.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-DCD4FAA5-37B4-435E-B7AE-6738767AB425.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-DF964226-1A86-464E-9E17-87D9899D96C8.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-EA153DF9-2637-4F60-8370-EB3769AA57FF.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-ED25F297-13E8-4549-8503-B27C2AEB3CC4.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-EE413F65-71C6-4BC2-9383-D0102B403FF0.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-F11BF54C-48EE-4F46-BE9A-DD4ECB7548B6.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-F68E7A27-A507-4C6D-BCC4-95E71B16AA83.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-FBD0539D-8CB2-4F86-B601-C29C042CFB60.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\CDwindow-FC1F7A0A-0F49-45E1-B61E-15C9F5AB310E.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\Edit service.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\Services.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\screenshots\[CDwindow-3CC28561-A4D6-4E5C-98F5-014818D641A7].png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\allure-results\3f04d8ff-4591-4889-b473-a91e2f1028c6-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\allure-results\9fa74ee1-6e07-47b0-82b0-856190d867d2-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\allure-results\a60b3c81-b27b-406b-a2af-fdad71c9b78d-testsuite.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\classes\TestChas.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\classes\testng\com\TestChas$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\classes\testng\com\TestChas.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\maven-archiver\pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\Surefire suite\Surefire test.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\Surefire suite\Surefire test.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\TEST-test.sources.MyFirstTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\bullet_point.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\collapseall.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\emailable-report.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\failed.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\jquery-1.7.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\navigator-bullet.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\old\Surefire suite\Surefire test.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\old\Surefire suite\classes.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\old\Surefire suite\groups.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\old\Surefire suite\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\old\Surefire suite\main.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\old\Surefire suite\methods-alphabetical.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\old\Surefire suite\methods-not-run.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\old\Surefire suite\methods.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\old\Surefire suite\reporter-output.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\old\Surefire suite\testng.xml.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\old\Surefire suite\toc.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\old\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\old\test.sources.MyFirstTest\Command line test.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\old\test.sources.MyFirstTest\classes.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\old\test.sources.MyFirstTest\groups.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\old\test.sources.MyFirstTest\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\old\test.sources.MyFirstTest\main.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\old\test.sources.MyFirstTest\methods-alphabetical.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\old\test.sources.MyFirstTest\methods-not-run.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\old\test.sources.MyFirstTest\methods.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\old\test.sources.MyFirstTest\reporter-output.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\old\test.sources.MyFirstTest\testng.xml.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\old\test.sources.MyFirstTest\toc.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\passed.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\skipped.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\test.sources.MyFirstTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\test.sources.MyFirstTest\Command line test.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\test.sources.MyFirstTest\Command line test.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\testng-reports.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\testng-reports.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\testng-results.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\surefire-reports\testng.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\test-classes\MyFirstTest.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\test-classes\test\sources\MyFirstTest.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\target\upworkDemo-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\.idea\libraries\Maven__commons_logging_commons_logging_1_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="MOVED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\.idea\libraries\Maven__org_apache_commons_commons_exec_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" />
-      <change type="MOVED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\.idea\libraries\Maven__org_apache_httpcomponents_httpclient_4_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_4_1.xml" />
-      <change type="MOVED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\.idea\libraries\Maven__org_apache_httpcomponents_httpcore_4_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_1.xml" />
-      <change type="MOVED" beforePath="C:\Users\ansk0413\Documents\GitHub\GitSync_upworkDemo\.idea\libraries\Maven__org_seleniumhq_selenium_selenium_remote_driver_2_33_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_2_47_1.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screenshots/Create service.png" afterPath="$PROJECT_DIR$/screenshots/Create service.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/screenshots/TuriTop · Reliable Booking System and Reservation Software.png" afterPath="$PROJECT_DIR$/screenshots/TuriTop · Reliable Booking System and Reservation Software.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/test/sources/MyFirstTest.java" afterPath="$PROJECT_DIR$/src/test/java/test/sources/MyFirstTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ScopeOfWork.txt" afterPath="$PROJECT_DIR$/ScopeOfWork.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upworkDemo.iml" afterPath="$PROJECT_DIR$/upworkDemo.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -219,8 +82,20 @@
       <file leaf-file-name="MyFirstTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/sources/MyFirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0185186">
-              <caret line="213" column="0" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.4838013">
+              <caret line="236" column="6" selection-start-line="236" selection-start-column="6" selection-end-line="236" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestChas.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/testng/com/TestChas.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -243,8 +118,8 @@
       <file leaf-file-name="ReflectiveCallable.class" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/webdriver/selenium-server-standalone-2.47.1.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.7037036">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state vertical-scroll-proportion="-6.703704">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -253,16 +128,9 @@
       <file leaf-file-name="ParentRunner.class" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/webdriver/selenium-server-standalone-2.47.1.jar!/org/junit/runners/ParentRunner.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.7037036">
-              <caret line="205" column="0" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
-              <folding>
-                <element signature="e#2137#2138#0" expanded="true" />
-                <element signature="e#2181#2182#0" expanded="true" />
-                <element signature="e#5891#6026#0" expanded="true" />
-                <element signature="e#6025#6026#0" expanded="true" />
-                <element signature="e#6429#6593#0" expanded="true" />
-                <element signature="e#6592#6593#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="205" column="29" selection-start-line="205" selection-start-column="29" selection-end-line="205" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -270,7 +138,7 @@
       <file leaf-file-name="JUnitCore.class" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/webdriver/selenium-server-standalone-2.47.1.jar!/org/junit/runner/JUnitCore.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.740741">
+            <state vertical-scroll-proportion="0.0">
               <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
               <folding />
             </state>
@@ -280,7 +148,7 @@
       <file leaf-file-name="RunBefores.class" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/webdriver/selenium-server-standalone-2.47.1.jar!/org/junit/internal/runners/statements/RunBefores.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.148149">
+            <state vertical-scroll-proportion="0.0">
               <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
@@ -290,7 +158,7 @@
       <file leaf-file-name="RunAfters.class" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/webdriver/selenium-server-standalone-2.47.1.jar!/org/junit/internal/runners/statements/RunAfters.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.148149">
+            <state vertical-scroll-proportion="0.0">
               <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
               <folding />
             </state>
@@ -300,18 +168,8 @@
       <file leaf-file-name="BlockJUnit4ClassRunner.class" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/webdriver/selenium-server-standalone-2.47.1.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.703704">
-              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="run.bat" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/run.bat">
-          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -395,6 +253,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -471,9 +330,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -484,7 +342,7 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/webdriver/selenium-server-standalone-2.47.1.jar!/" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
@@ -494,7 +352,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="JUnit.MyFirstTest">
@@ -809,30 +667,36 @@
       <option name="project" value="LOCAL" />
       <updated>1440567099419</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Iteration 5&#10;Steps 7. Implementation inprogress.">
+      <created>1440638273526</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1440638273526</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31930694" sideWeight="0.43179843" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3180693" sideWeight="0.43179843" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3329208" sideWeight="0.47625" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.82450044" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964938" sideWeight="0.82450044" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.199375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.56435645" sideWeight="0.52375" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39232674" sideWeight="0.52375" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -886,19 +750,27 @@
     <MESSAGE value="testq" />
     <MESSAGE value="Iteration 4&#10;Adding steps 3\4\5 (not completed)" />
     <MESSAGE value="Iteration 5&#10;Steps 5-6. Implemented." />
-    <option name="LAST_COMMIT_MESSAGE" value="Iteration 5&#10;Steps 5-6. Implemented." />
+    <MESSAGE value="Iteration 5&#10;Steps 7. Implementation inprogress." />
+    <MESSAGE value="Iteration 5.1&#10;Steps 7. Implementation inprogress." />
+    <option name="LAST_COMMIT_MESSAGE" value="Iteration 5.1&#10;Steps 7. Implementation inprogress." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/test/sources/MyFirstTest.java</url>
-          <line>210</line>
+          <line>229</line>
           <properties />
-          <option name="timeStamp" value="18" />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/test/sources/MyFirstTest.java</url>
+          <line>203</line>
+          <properties />
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="19" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -943,7 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -983,7 +854,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1023,7 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1063,7 +932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1103,7 +971,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1143,7 +1010,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1221,13 +1087,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testng/com/TestChas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/upworkDemo.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1239,7 +1098,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1263,7 +1121,7 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/webdriver/selenium-server-standalone-2.47.1.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.703704">
+        <state vertical-scroll-proportion="0.0">
           <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding />
         </state>
@@ -1271,7 +1129,7 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/webdriver/selenium-server-standalone-2.47.1.jar!/org/junit/internal/runners/statements/RunBefores.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.148149">
+        <state vertical-scroll-proportion="0.0">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
@@ -1279,7 +1137,7 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/webdriver/selenium-server-standalone-2.47.1.jar!/org/junit/internal/runners/statements/RunAfters.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.148149">
+        <state vertical-scroll-proportion="0.0">
           <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
           <folding />
         </state>
@@ -1287,39 +1145,42 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/webdriver/selenium-server-standalone-2.47.1.jar!/org/junit/runner/JUnitCore.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.740741">
+        <state vertical-scroll-proportion="0.0">
           <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/webdriver/selenium-server-standalone-2.47.1.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.7037036">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/webdriver/selenium-server-standalone-2.47.1.jar!/org/junit/runners/ParentRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.7037036">
-          <caret line="205" column="0" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="205" column="29" selection-start-line="205" selection-start-column="29" selection-end-line="205" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testng/com/TestChas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
           <folding>
-            <element signature="e#2137#2138#0" expanded="true" />
-            <element signature="e#2181#2182#0" expanded="true" />
-            <element signature="e#5891#6026#0" expanded="true" />
-            <element signature="e#6025#6026#0" expanded="true" />
-            <element signature="e#6429#6593#0" expanded="true" />
-            <element signature="e#6592#6593#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/webdriver/selenium-server-standalone-2.47.1.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.703704">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/sources/MyFirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0185186">
-          <caret line="213" column="0" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4838013">
+          <caret line="236" column="6" selection-start-line="236" selection-start-column="6" selection-end-line="236" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

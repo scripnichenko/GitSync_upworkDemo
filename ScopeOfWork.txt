@@ -9,20 +9,20 @@ The required tasks are the following:
 - Log out after the account is created
 
 Then, you have to reproduce all the following tasks with Selenium IDE:
-- Log in to your previously created account
-- Create a service keeping all the default values
-- After the service is created, scroll down until you see the "discount options"
-- Create a 10% discount applicable to all ticket types (leave blank all the other conditions)
-- Then, scroll up again to see the "Service Preview" (which is an iframe), click on the right arrow to select the following month and click on the second monday
-- Click on the time 11:00
-- After clicking on the time the widget will show the price applicable to that date and time. There will be two tickets (adult and child) with the full price crossed and the deducted price besides. You have to make 4 assert to make sure the prices are correct.
-- After the assert, scroll down and delete the discount you created.
-- Then you will make a new discount, this time on the "anticipation" option choose "3 weeks" so the discount only applies if there are more than 3 weeks anticipation
-- Make the corresponding asserts at the preview section to make sure the discount works properly and delete the discount afterwards
-- Repeat the process making a discount with promocode (assert and delete)
--  Repeat the process making a discount with  valid from-to dates (assert and delete discount)
--  Repeat the process making a discount with  minimum amount of people (assert and delete discount)* In this case, if the type 3 as minimum, on the iframe you will have to select "3 adults" or "3 children" in order to see the discount.
-- The automated test finishes by deleting the service (scroll down, click on "advance actions" and then on the red button "Delete Service"
+- 1 Log in to your previously created account
+- 2 Create a service keeping all the default values
+- 3 After the service is created, scroll down until you see the "discount options"
+- 4 Create a 10% discount applicable to all ticket types (leave blank all the other conditions)
+- 5 Then, scroll up again to see the "Service Preview" (which is an iframe), click on the right arrow to select the following month and click on the second monday
+- 6 Click on the time 11:00
+- 7 After clicking on the time the widget will show the price applicable to that date and time. There will be two tickets (adult and child) with the full price crossed and the deducted price besides. You have to make 4 assert to make sure the prices are correct.
+- 8 After the assert, scroll down and delete the discount you created.
+- 9 Then you will make a new discount, this time on the "anticipation" option choose "3 weeks" so the discount only applies if there are more than 3 weeks anticipation
+- 10 Make the corresponding asserts at the preview section to make sure the discount works properly and delete the discount afterwards
+- 11 Repeat the process making a discount with promocode (assert and delete)
+- 12 Repeat the process making a discount with  valid from-to dates (assert and delete discount)
+- 13  Repeat the process making a discount with  minimum amount of people (assert and delete discount)* In this case, if the type 3 as minimum, on the iframe you will have to select "3 adults" or "3 children" in order to see the discount.
+- 14 The automated test finishes by deleting the service (scroll down, click on "advance actions" and then on the red button "Delete Service"
 
 Upon delivery, I should be able to run the test as many times as I want because it creates and deletes the service, leaving the account as it initially started
 
