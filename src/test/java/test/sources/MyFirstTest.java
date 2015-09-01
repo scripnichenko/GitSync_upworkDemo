@@ -205,9 +205,10 @@ public class MyFirstTest
 
 
             WebDriverWait wait = new WebDriverWait(driver, 10);
-            WebElement clickArrauNextMonth = FindElementBy(By.xpath("//*[contains(@class,'arrow next')]"));
+            WebElement clickArrauNextMonth = FindElementBy(By.xpath("//*[@class=\"arrow next\"]"));
             wait.until(ExpectedConditions.elementToBeClickable(clickArrauNextMonth));
-
+        MyFirstTest.driver.switchTo().defaultContent();
+        MyFirstTest.driver.switchTo().frame("product_preview");
             clickArrauNextMonth.click();
 
             // xpath- $x ("//@class='arrow next'")
@@ -222,31 +223,49 @@ public class MyFirstTest
 			        } else {
             String xpathForDate = new StringBuilder("//*[@id=\"dayList_").append(14 - calendarEmptyValuesAmount.size() + 1).append("\"]").toString();
 
+            WebDriverWait waitForDate = new WebDriverWait(driver, 10);
+            waitForDate.until(ExpectedConditions.elementToBeClickable(By.xpath(xpathForDate)));
             MyFirstTest.driver.findElement(By.xpath(xpathForDate)).click();
         }
 
         //- 6 Click on the time 11:00
 
-        MyFirstTest.driver.findElement(By.xpath("//*[@id=\"23\"]")).click();
+        MyFirstTest.driver.findElement(By.xpath("//*[contains(text(), \"11:00\")]")).click();
 
         //- 7 After clicking on the time the widget will show the price applicable to that date and time.
         // There will be two tickets (adult and child) with the full price crossed and the deducted price besides.
         // You have to make 4 assert to make sure the prices are correct.
 
 
-        WebElement adultSelector = FindElementBy(By.id("ticket_type_count_16035"));
-        WebDriverWait waitString = new WebDriverWait(driver, 10);
-        waitString.until(ExpectedConditions.elementToBeClickable(adultSelector));
+        WebElement adultVerification = FindElementBy(By.xpath("//div[@class='booking-box-ticket-type']/table/tbody/tr/td[1]/div"));
+        WebDriverWait waitStringAdult = new WebDriverWait(driver, 10);
+        waitStringAdult.until(ExpectedConditions.textToBePresentInElement(adultVerification, "Adult"));
+        System.out.println("Ticket type [1]: " + adultVerification.getText());
+        System.out.println("Ticket OldPrice [1]: " + FindElementBy(By.xpath("//div[@class='booking-box-ticket-type']/table/tbody/tr/td[2]/span[contains(@id, 'oldprice')]")).getText());
+        System.out.println("Ticket CurrentPrice [1]: " + FindElementBy(By.xpath("//div[@class='booking-box-ticket-type']/table/tbody/tr/td[2]/span[contains(@id, '_price')]")).getText());
 
-        Select findSelectionAdult = new Select(FindElementBy(By.id("ticket_type_count_16035")));
+
+        Select findSelectionAdult = new Select(FindElementBy(By.xpath("//div[@class='booking-box-ticket-type']/table/tbody/tr/td[3]/select [contains(@id, 'count')]")));
         findSelectionAdult.selectByVisibleText("1");
 
 
-        Select findSelectionChild = new Select(FindElementBy(By.id("ticket_type_count_16036")));
+        WebElement childVerification = FindElementBy(By.xpath("//div[@class='booking-box-ticket-type']/table/tbody/tr[2]/td[1]/div"));
+        WebDriverWait waitStringChild = new WebDriverWait(driver, 10);
+        waitStringChild.until(ExpectedConditions.textToBePresentInElement(childVerification, "Child"));
+        System.out.println("Ticket type [2]: " + childVerification.getText());
+        System.out.println("Ticket OldPrice [2]: " + FindElementBy(By.xpath("//div[@class='booking-box-ticket-type']/table/tbody/tr[2]/td[2]/span[contains(@id, 'oldprice')]")).getText());
+        System.out.println("Ticket CurrentPrice [2]: " + FindElementBy(By.xpath("//div[@class='booking-box-ticket-type']/table/tbody/tr[2]/td[2]/span[contains(@id, '_price')]")).getText());
+
+
+        Select findSelectionChild = new Select(FindElementBy(By.xpath("//div[@class='booking-box-ticket-type']/table/tbody/tr[2]/td[3]/select [contains(@id, 'count')]")));
         findSelectionChild.selectByVisibleText("2");
 
+        //Total Prices
+        WebElement oldTotalPriceVerification = FindElementBy(By.xpath("//*[@id=\"total_price_old\"]"));
+        System.out.println("Old Total Price: " + oldTotalPriceVerification.getText());
 
-
+        WebElement totalPriceVerification = FindElementBy(By.xpath("//*[@id=\"total_price\"]"));
+        System.out.println("Total Price: " + totalPriceVerification.getText());
 
 
        /* WebElement select = driver.findElement(By.id("selection"));
