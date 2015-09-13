@@ -26,8 +26,8 @@ import static org.junit.Assert.fail;
 public class MyFirstTest
 {
     private static WebDriver driver;
-    private static final String LOGINMAIL = "scrip.a.v@gmail.com";
-    private static final String PASSWORD = "myhMf6c3";
+    private static final String LOGINMAIL = "andrii.skrypnychenko@ukr.net";
+    private static final String PASSWORD = "Adrianu2015";
     private static final String LOGIN = "id('header-nav-link-login')";
     private static final String USERFIELD = "id('user')";
     private static final String PASSFIELD = "id('password')";
@@ -44,6 +44,20 @@ public class MyFirstTest
          * @param path  path to be saved
          * @throws java.io.IOException  if the specified path is invalid
          */
+    }
+    public  void Deleteservice(){
+
+        WebElement deleteFirstService = FindElementBy(By.xpath("//*[@id=\"edit_product_advanced_container\"]"));
+        if (deleteFirstService!= null) {
+            deleteFirstService.click();
+        }
+        else {
+            fail("There is no button to create Delete button");
+        }
+
+
+        WebElement deleteFirst1Services = FindElementBy(By.xpath("//*[@id=\"product_delete\"]/input"));
+        deleteFirst1Services.submit();
     }
     public void SaveScreenshot(String path) {
         File screenshot = ((TakesScreenshot) MyFirstTest.driver).getScreenshotAs(OutputType.FILE);
@@ -65,6 +79,7 @@ public class MyFirstTest
     public WebElement FindElementBy(By by) {
         try {
             Thread.sleep(1000);
+
             (new WebDriverWait(MyFirstTest.driver, 5)).until(ExpectedConditions.visibilityOfElementLocated(by));
             WebElement element = MyFirstTest.driver.findElement(by);
             Thread.sleep(1000);
@@ -135,6 +150,16 @@ public class MyFirstTest
         WebElement navigateToCategories = FindElementBy(By.partialLinkText("Services"));
         navigateToCategories.click();
 
+        //Qty validation (not more 10)
+        List<WebElement> serviceQty = driver.findElements(By.xpath("//tr"));
+        if (serviceQty.size()> 9){
+        WebElement firstService = FindElementBy(By.xpath("//tr[1]/td[2]/a"));
+        firstService.click();
+        Deleteservice();
+
+        }
+        // ----- End validation
+
         WebElement saveService = FindElementBy(By.partialLinkText("Add new service"));
         if (saveService != null) {
             saveService.click();
@@ -202,14 +227,32 @@ public class MyFirstTest
         jseUp.executeScript("window.scrollTo(0,0)", "");
 
         MyFirstTest.driver.switchTo().frame("product_preview");
+        //System.out.println(driver.getPageSource());
+        //System.out.println(driver.getPageSource().compareTo("arrow next"));
+       // MyFirstTest.driver.switchTo().frame(driver.findElement(By.xpath("//*[contains(@class,'arrow next')]")));
+
+        WebDriverWait wait = new WebDriverWait(driver, 100000000);
+        String path41 = new StringBuilder("./screenshots/").append(MyFirstTest.driver.getTitle()).append(".png").toString();
+        SaveScreenshot(path41);
+//        System.out.println(driver.getPageSource());
+        WebElement clickArrauNextMonth = driver.findElement(By.xpath("//*[contains(@class,'arrow next')]/span"));
+
+        wait.until(ExpectedConditions.elementToBeClickable(clickArrauNextMonth));
+        //WebElement clickArrauNextMonthCss = FindElementBy(By.cssSelector("#eventCalendarDefault > div.eventsCalendar - slider > a.arrow.next > span"));
+        System.out.println(driver.getPageSource());
+        System.out.print(clickArrauNextMonth.getTagName());
+        clickArrauNextMonth.click();
+        clickArrauNextMonth.click();
+        clickArrauNextMonth.click();
+        clickArrauNextMonth.click();
+        System.out.println(driver.getPageSource());
 
 
-            WebDriverWait wait = new WebDriverWait(driver, 10);
-            WebElement clickArrauNextMonth = FindElementBy(By.xpath("//*[@class=\"arrow next\"]"));
-            wait.until(ExpectedConditions.elementToBeClickable(clickArrauNextMonth));
-        MyFirstTest.driver.switchTo().defaultContent();
-        MyFirstTest.driver.switchTo().frame("product_preview");
-            clickArrauNextMonth.click();
+
+
+//        MyFirstTest.driver.switchTo().frame("product_preview");
+
+//        new Actions(MyFirstTest.driver).moveToElement(clickArrauNextMonth).click().perform();
 
             // xpath- $x ("//@class='arrow next'")
 		// xpath $x ("//*[contains(@class,'arrow next')]")
@@ -288,26 +331,7 @@ public class MyFirstTest
         //*[@id="eventCalendarDefault"]/div[1]/a[2]
         //14 The automated test finishes by deleting the service (scroll down, click on "advance actions" and then on the red button "Delete Service"
 
-        WebElement deleteService = FindElementBy(By.xpath("//*[@id=\"edit_product_advanced_container\"]"));
-        if (deleteService!= null) {
-            deleteService.click();
-        }
-        else {
-            fail("There is no button to create Delete button");
-        }
-
-
-        String path6 = new StringBuilder("./screenshots/").append(MyFirstTest.driver.getTitle()).append(".png").toString();
-        SaveScreenshot(path6);
-
-
-
-        WebElement deleteServices = FindElementBy(By.xpath("//*[@id=\"product_delete\"]/input"));
-        deleteServices.submit();
-
-        String path7 = new StringBuilder("./screenshots/").append(MyFirstTest.driver.getTitle()).append(".png").toString();
-        SaveScreenshot(path7);
-
+        Deleteservice();
         //*[@id="product_discounts"]
        /* //
         // 2) send "NetCracker Su" to the query field
