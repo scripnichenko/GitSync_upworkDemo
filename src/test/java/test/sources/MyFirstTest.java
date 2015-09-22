@@ -59,13 +59,14 @@ public class MyFirstTest
         WebElement deleteFirst1Services = FindElementBy(By.xpath("//*[@id=\"product_delete\"]/input"));
         deleteFirst1Services.submit();
     }
-    public void SaveScreenshot(String path) {
+    public void SaveScreenshot() {
+        String paths = new StringBuilder("./screenshots/").append(MyFirstTest.driver.getTitle()).append(".png").toString();
         File screenshot = ((TakesScreenshot) MyFirstTest.driver).getScreenshotAs(OutputType.FILE);
         try {
-            FileUtils.copyFile(screenshot, new File(path));
+            FileUtils.copyFile(screenshot, new File(paths));
         }
         catch (IOException e) {
-            fail("Unable to save the screenshot to '" + path + "'");
+            fail("Unable to save the screenshot to '" + paths + "'");
         }
     }
 
@@ -107,8 +108,7 @@ public class MyFirstTest
 
         //1.2 Make ScreenShot
 
-        String path = new StringBuilder("./screenshots/").append(MyFirstTest.driver.getTitle()).append(".png").toString();
-        SaveScreenshot(path);
+         SaveScreenshot();
 
         //1.3 Set Log and pass
 
@@ -141,8 +141,8 @@ public class MyFirstTest
            fail("LogIn Fail");
         }
 
-        String path2 = new StringBuilder("./screenshots/").append(MyFirstTest.driver.getTitle()).append(".png").toString();
-        SaveScreenshot(path2);
+        //String path2 = new StringBuilder("./screenshots/").append(MyFirstTest.driver.getTitle()).append(".png").toString();
+        SaveScreenshot();
 
         //2 - Navigate to Categories and Create a service keeping all the default values
 
@@ -177,17 +177,15 @@ public class MyFirstTest
             fail("There is no button to Save new Service");
         }
 
-
-        String path4 = new StringBuilder("./screenshots/").append(MyFirstTest.driver.getTitle()).append(".png").toString();
-        SaveScreenshot(path4);
-
+        SaveScreenshot();
 
         //3 After the service is created, scroll down until you see the "discount options"
 
         JavascriptExecutor jse = (JavascriptExecutor)MyFirstTest.driver;
         jse.executeScript("window.scrollBy(0,1000)", "");
 
-        WebElement createDiscount = FindElementBy(By.xpath("//*[@id=\"edit_product_discounts_container\"]/div[1]/a/div"));
+       // WebElement createDiscount = FindElementBy(By.xpath("//*[@id=\"edit_product_discounts_container\"]/div[1]/a/div"));
+        WebElement createDiscount = FindElementBy(By.xpath("//*[contains(text(),'Pricing & discounts')]"));
 
         if (createDiscount!= null) {
             createDiscount.click();
@@ -196,9 +194,7 @@ public class MyFirstTest
             fail("There is no button to create Discount");
         }
 
-        String path5 = new StringBuilder("./screenshots/").append(MyFirstTest.driver.getWindowHandle()).append(".png").toString();
-        SaveScreenshot(path5);
-
+         SaveScreenshot();
 
         // 4 Create a 10% discount applicable to all ticket types (leave blank all the other conditions)
 
@@ -227,25 +223,61 @@ public class MyFirstTest
         jseUp.executeScript("window.scrollTo(0,0)", "");
 
         MyFirstTest.driver.switchTo().frame("product_preview");
-        //System.out.println(driver.getPageSource());
+        System.out.println(driver.getPageSource());
         //System.out.println(driver.getPageSource().compareTo("arrow next"));
        // MyFirstTest.driver.switchTo().frame(driver.findElement(By.xpath("//*[contains(@class,'arrow next')]")));
 
-        WebDriverWait wait = new WebDriverWait(driver, 100000000);
-        String path41 = new StringBuilder("./screenshots/").append(MyFirstTest.driver.getTitle()).append(".png").toString();
-        SaveScreenshot(path41);
-//        System.out.println(driver.getPageSource());
-        WebElement clickArrauNextMonth = driver.findElement(By.xpath("//*[contains(@class,'arrow next')]/span"));
+      /*  WebDriverWait wait = new WebDriverWait(driver, 100000000);
+        SaveScreenshot();
 
-        wait.until(ExpectedConditions.elementToBeClickable(clickArrauNextMonth));
+        driver.manage().window().maximize();
+        WebElement clickArrauNextMonth = driver.findElement(By.xpath("//*[contains(@class,'arrow next')]/span"));
+        clickArrauNextMonth.click();
+       */
+
+        //WebElement clickArrauNextMonth = driver.findElement(By.xpath("/html/body/div[2]/form/div[2]/div/div/a[2]/span"));
+       // driver.findElement(By.xpath("//a[@onclick='showLoading(\"next month click\");']")).click();
+        //driver.findElement(By.xpath(" //a[contains(@class,'arrow next')]")).click();
+
+//--------------
+        //WA from https://code.google.com/p/chromedriver/issues/detail?id=28
+
+
+     //   WebDriverWait wait = new WebDriverWait(driver, 100);
+    //    WebElement elem = driver.findElement(By.xpath("//a[@onclick='showLoading(\"next month click\");']"));
+       // ((JavascriptExecutor) driver).executeScript("contentWindow.document.getElementsByClassName('arrow next')[0].click()");
+         Thread.sleep(120);
+
+  //      ((JavascriptExecutor) driver).executeScript("document.getElementsByClassName('arrow next')[0].click()");
+        ((JavascriptExecutor) driver).executeScript("document.getElementById('product_preview').contentWindow.document.getElementsByClassName('arrow next')[0].click()");
+
+//        ((JavascriptExecutor) driver).executeScript("document.getElementsByClassName('arrow next')[0].click()");
+//        ((JavascriptExecutor) driver).executeScript("document.getElementsByClassName('arrow next')[0].click()");
+
+//a[@onclick='showLoading("next month click");']
+
+        /*
+        WebElement elem1 = driver.findElement(By.xpath("//*[contains(@class,'arrow next')]"));
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", elem1);
+        WebElement elem2 = driver.findElement(By.xpath("//*[contains(@class,'arrow next')]"));
+        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", elem2);
+        */
+//--------------
+/* WA from https://code.google.com/p/selenium/issues/detail?id=2766 Find an element and define it
+        WebElement elementToClick = driver.findElement(By.xpath("//*[contains(@class,'arrow next')]"));
+// Scroll the browser to the element's Y position
+        ((JavascriptExecutor) driver).executeScript("window.scrollTo(0,"+elementToClick.getLocation().y + ")");
+// Click the element
+        elementToClick.click();
+*/
+        //wait.until(ExpectedConditions.elementToBeClickable(clickArrauNextMonth));
         //WebElement clickArrauNextMonthCss = FindElementBy(By.cssSelector("#eventCalendarDefault > div.eventsCalendar - slider > a.arrow.next > span"));
-        System.out.println(driver.getPageSource());
-        System.out.print(clickArrauNextMonth.getTagName());
-        clickArrauNextMonth.click();
-        clickArrauNextMonth.click();
-        clickArrauNextMonth.click();
-        clickArrauNextMonth.click();
-        System.out.println(driver.getPageSource());
+      //  System.out.println(driver.getPageSource());
+       // System.out.print(clickArrauNextMonth.getTagName());
+       // clickArrauNextMonth.click();
+        //clickArrauNextMonth.click();
+
+        //System.out.println(driver.getPageSource());
 
 
 
@@ -258,18 +290,27 @@ public class MyFirstTest
 		// xpath $x ("//*[contains(@class,'arrow next')]")
         // //*[@id="eventCalendarDefault"]/div[1]/a[2]/span
        // WebElement clickArrauNextMonth = FindElementBy(By.cssSelector("*[class$='next']"));
+        MyFirstTest.driver.switchTo().defaultContent();
+        MyFirstTest.driver.switchTo().frame("product_preview");
 
-        List<WebElement> calendarEmptyValuesAmount = driver.findElements(By.cssSelector("*[class$='empty']"));
+        List<WebElement> calendarEmptyValuesAmount = driver.findElements(By.xpath("//*[contains(@class,'empty')]"));
 
-        if (calendarEmptyValuesAmount.size() == 0){
+            if (calendarEmptyValuesAmount.size() == 0){
+
+
             MyFirstTest.driver.findElement(By.xpath("//*[@id=\"dayList_8\"]")).click();
 			        } else {
+
+
             String xpathForDate = new StringBuilder("//*[@id=\"dayList_").append(14 - calendarEmptyValuesAmount.size() + 1).append("\"]").toString();
 
             WebDriverWait waitForDate = new WebDriverWait(driver, 10);
             waitForDate.until(ExpectedConditions.elementToBeClickable(By.xpath(xpathForDate)));
-            MyFirstTest.driver.findElement(By.xpath(xpathForDate)).click();
-        }
+                WebElement ckickADay = FindElementBy(By.xpath(xpathForDate));
+                driver.findElement(By.xpath(xpathForDate)).click();
+                new Actions(MyFirstTest.driver).moveToElement(ckickADay).click().perform();
+
+            }
 
         //- 6 Click on the time 11:00
 
