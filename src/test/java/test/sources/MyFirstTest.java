@@ -222,8 +222,10 @@ public class MyFirstTest
         JavascriptExecutor jseUp = (JavascriptExecutor)MyFirstTest.driver;
         jseUp.executeScript("window.scrollTo(0,0)", "");
 
-        MyFirstTest.driver.switchTo().frame("product_preview");
-        System.out.println(driver.getPageSource());
+        WebDriverWait wait13 = new WebDriverWait(driver,10);
+        wait13.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt("product_preview"));
+
+       //System.out.println(driver.getPageSource());
         //System.out.println(driver.getPageSource().compareTo("arrow next"));
        // MyFirstTest.driver.switchTo().frame(driver.findElement(By.xpath("//*[contains(@class,'arrow next')]")));
 
@@ -246,7 +248,7 @@ public class MyFirstTest
      //   WebDriverWait wait = new WebDriverWait(driver, 100);
     //    WebElement elem = driver.findElement(By.xpath("//a[@onclick='showLoading(\"next month click\");']"));
        // ((JavascriptExecutor) driver).executeScript("contentWindow.document.getElementsByClassName('arrow next')[0].click()");
-         Thread.sleep(120);
+         Thread.sleep(2000);
 
   //      ((JavascriptExecutor) driver).executeScript("document.getElementsByClassName('arrow next')[0].click()");
         ((JavascriptExecutor) driver).executeScript("document.getElementById('product_preview').contentWindow.document.getElementsByClassName('arrow next')[0].click()");
@@ -291,7 +293,10 @@ public class MyFirstTest
         // //*[@id="eventCalendarDefault"]/div[1]/a[2]/span
        // WebElement clickArrauNextMonth = FindElementBy(By.cssSelector("*[class$='next']"));
         MyFirstTest.driver.switchTo().defaultContent();
-        MyFirstTest.driver.switchTo().frame("product_preview");
+        WebDriverWait wait14 = new WebDriverWait(driver,10);
+        wait14.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt("product_preview"));
+        Thread.sleep(1200);
+
 
         List<WebElement> calendarEmptyValuesAmount = driver.findElements(By.xpath("//*[contains(@class,'empty')]"));
 
@@ -313,8 +318,15 @@ public class MyFirstTest
             }
 
         //- 6 Click on the time 11:00
+        MyFirstTest.driver.switchTo().defaultContent();
+        WebDriverWait wait145 = new WebDriverWait(driver,10);
+        wait145.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt("product_preview"));
+        Thread.sleep(1200);
+//        WebElement click2300 = driver.findElement(By.xpath("//input[contains(@value, '11:00') and contains(@class, 'select')]"));
+        WebElement click2300 = driver.findElement(By.xpath("//*[contains(@onclick, \"11:00\")]"));
 
-        MyFirstTest.driver.findElement(By.xpath("//*[contains(text(), \"11:00\")]")).click();
+        click2300.click();
+        new Actions(MyFirstTest.driver).moveToElement(click2300).click().perform();
 
         //- 7 After clicking on the time the widget will show the price applicable to that date and time.
         // There will be two tickets (adult and child) with the full price crossed and the deducted price besides.
